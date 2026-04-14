@@ -19,7 +19,7 @@ Tek kontrol ünitesi üzerinden evin hem güvenliğini (şifreli giriş) hem de 
 - Mimari: Interrupt tabanlı acil durum yönetimi ve PWM ile motor kontrolü.
 - Analiz: Sensör sinyal kararlılığı için LTSpice simülasyonları kullanılacaktır.
 
-## 📈 Proje Durumu
+##  Proje Durumu
 - [x] Donanım bileşenleri belirlendi.
 - [ ] Proje mimarisi tasarlandı.
 - [ ] Kod geliştirme aşaması (Devam ediyor).
