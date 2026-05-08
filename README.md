@@ -1,26 +1,24 @@
 # Microprocessor-Final-Project28
-# Akıllı Ev Güvenlik ve Çevresel İzleme İstasyonu
-Bu proje, Mikroişlemciler dersi final projesi kapsamında geliştirilen, mikrodenetleyici tabanlı bir entegre güvenlik sistemidir.
+# Smart Home Security and Environmental Monitoring Station
+This project is a microcontroller-based integrated security system developed as part of the final project for the Microprocessors course.
 
-##  Proje Amacı
-Tek kontrol ünitesi üzerinden evin hem güvenliğini (şifreli giriş) hem de yaşamsal risk faktörlerini (gaz sızıntısı, sıcaklık-nem) eş zamanlı olarak takip etmek ve kritik durumlarda alarm mekanizmasını devreye sokmaktır.
+## Project Objective
+To simultaneously monitor both the security of the home (password-based entry) and vital risk factors (gas leakage, temperature-humidity) via a single control unit, and to activate the alarm mechanism in critical situations.
+##  Hardware Components Used
+- Controller: ATmega328P-based Microcontroller
+- Input: 4x4 Matrix Keypad = For user password entry
+- Sensors: - MQ-2 Combustible Gas and Smoke Sensor
+  - DHT11 Digital Temperature and Humidity Sensor
+- Output: - 16x2 I2C LCD Display = For status notification
+  - SG90 Servo Motor = For electronic lock simulation
+  - Active Buzzer = For audio warning system
 
-##  Kullanılan Donanım Bileşenleri
-- Kontrolcü: ATmega328P tabanlı Mikrodenetleyici
-- Giriş: 4x4 Matris Keypad = Kullanıcı şifre girişi için
-- Sensörler: - MQ-2 Yanıcı Gaz ve Duman Sensörü
-  - DHT11 Dijital Sıcaklık ve Nem Sensörü
-- Çıkış: - 16x2 I2C LCD Ekran = Durum bildirimi için
-  - SG90 Servo Motor = Elektronik kilit simülasyonu için
-  - Aktif Buzzer = Sesli uyarı sistemi için 
+##  Technical Specifications
+- Software Language: C
+- Architecture: Interrupt-based emergency management and motor control with PWM.
+- Analysis: LTSpice simulations will be used for sensor signal stability.
 
-##  Teknik Özellikler
-- Yazılım Dili: C 
-- Mimari: Interrupt tabanlı acil durum yönetimi ve PWM ile motor kontrolü.
-- Analiz: Sensör sinyal kararlılığı için LTSpice simülasyonları kullanılacaktır.
 
-##  Proje Durumu
-- [x] Donanım bileşenleri belirlendi.
-- [ ] Proje mimarisi tasarlandı.
-- [ ] Kod geliştirme aşaması (Devam ediyor).
-- [ ] Fiziksel montaj ve test.
+[images of when the system is running.docx](https://github.com/user-attachments/files/27514763/images.of.when.the.system.is.running.docx)
+
+[EEE308_22020228_ProjectReport.pdf](https://github.com/user-attachments/files/27515091/EEE308_22020228_ProjectReport.pdf)
